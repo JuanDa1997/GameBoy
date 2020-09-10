@@ -52,7 +52,7 @@ let epa2 = () =>{
     }else if(contador == 1){
         const x = document.getElementsByClassName("Screem")[0];
         let y = document.getElementById("titulo").innerText = "Bob marley";
-        x.style.backgroundImage = "url(../covers/imagen2.jpg)";
+        x.style.backgroundImage = "url(./covers/imagen2.jpg)";
         player = new AudioPlayer(songs[1].url,document.querySelector(".Screem"), controls);
         
     }
