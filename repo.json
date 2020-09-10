@@ -1,0 +1,13 @@
+const songs =[{
+        "url":"./songs/song_1.mp3",
+        "description": "Primera canción" 
+    },
+    {
+      "url":"./songs/song_2.mp3",
+      "description": "Segunda canción"
+    },
+    {
+        "url":"./songs/song_3.mp3",
+        "description": "Tercera canción"
+    }
+]  

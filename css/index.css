@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f54f6b;
+}
+
+.sombra {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* justify-content: space-around; */
+  margin: auto;
+  margin-top: 50px;
+  width: 520px;
+  height: 750px;
+  background-color: #d39715;
+  border-radius: 4%;
+  filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.5));
+  border-bottom-right-radius: 100px;
+}
+
+.GameBoy-Body {
+  box-sizing: border-box;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-around; */
+  /* margin-top: 50px; */
+  width: 500px;
+  height: 750px;
+  background-color: #f5af19;
+  border-radius: 4%;
+  /* filter: drop-shadow(2px 4px 8px hsla(0deg, 0%, 0%, 0.5)); */
+  border-bottom-right-radius: 100px;
+}
+.GameBoy-Body audio {
+  display: none;
+}
+
+h1 {
+  padding: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.imagen {
+  width: 60%;
+  height: 12%;
+  background-image: url("../3a55dfed-f5a3-4578-a731-0b349b7725bd_1.6c5462642df39f420cbc0d5e8fe863e5.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.Screem-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 350px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.Screem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 30px;
+  width: 60%;
+  height: 70%;
+  background-color: #a0a0a0;
+  border-radius: 10px;
+  background-image: url(../covers/a3268079795_2.jpg);
+  background-size: cover;
+}
+.Screem .titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 40px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 210px;
+  background: white;
+  font-size: 10px;
+  text-align: center;
+  color: black;
+  position: absolute;
+}
+.Screem .progress {
+  background-color: #ff0000;
+  width: 0%;
+  height: 20%;
+  border-bottom-left-radius: 10px;
+  margin-top: 200px;
+}
+
+.Butom-containers {
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+  height: 150px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.arows {
+  display: flex;
+  padding: 2px;
+  flex-direction: column;
+  width: 120px;
+  height: 139px;
+  /* background-color: green; */
+}
+
+.buttons {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 120px;
+  height: 120px;
+  /* background-color: black; */
+  justify-content: space-evenly;
+}
+
+.up {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  /* background-color:black; */
+  border-radius: 6px;
+}
+
+.down {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  /* background-color:black; */
+  border-radius: 6px;
+}
+
+.left-right {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  /* background-color:black; */
+}
+
+.Arrow-Up {
+  width: 45px;
+  height: 45px;
+  background-color: black;
+  border-radius: 6px;
+}
+
+.Arrow-Left {
+  width: 45px;
+  height: 45px;
+  background-color: black;
+  border-radius: 6px;
+}
+
+.Arrow-Center {
+  width: 45px;
+  height: 45px;
+  background-color: black;
+  /* border-radius: 6px; */
+}
+
+.Arrow-Rigth {
+  width: 45px;
+  height: 45px;
+  background-color: black;
+  border-radius: 6px;
+}
+
+.Arrow-Down {
+  width: 45px;
+  height: 45px;
+  background-color: black;
+  border-radius: 6px;
+}
+
+.A {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 50px;
+  /* background-color: rgb(162, 163, 162); */
+  /* border-radius: 50%; */
+}
+
+.B {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  /* background-color: green; */
+  /* border-radius: 50%; */
+}
+
+.buttom-A {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.buttom-B {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.more-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  width: 40%;
+  height: 45px;
+  /* background-color: black; */
+  border-radius: 6px;
+}
+
+.buttom-select {
+  width: 45px;
+  height: 12px;
+  background-color: black;
+  border-radius: 4px;
+}
+
+.buttom-start {
+  width: 45px;
+  height: 12px;
+  background-color: black;
+  border-radius: 4px;
+}
+
+/*# sourceMappingURL=index.css.map */

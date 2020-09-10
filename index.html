@@ -3,44 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./src/AudioPlayer.js"></script>
     <title>GameBoy Color</title>
 </head>
 <body>
     <h1>Game Boy by: Juan David Ruiz Lopez</h1>
-    <div class="GameBoy-Body">
-        <div class="Screem-container">
-            <div class="Screem"></div>
-            <div class=" imagen"></div>
-        </div>
-        <div class="Butom-containers">
-            <div class="arows">
-                <div class="up">
-                    <div class="Arrow-Up"></div>
+    <div class="sombra">
+        <div class="GameBoy-Body">
+            <div class="Screem-container">
+                <div class="Screem">
+                    <div class="titulo"><h1 id="titulo">The ascensio</h1> </div>
+                    <!-- <img src="./covers/a3268079795_2.jpg" alt=""> -->
+                    <div class="progress"></div>
                 </div>
-                <div class="left-right">
-                    <div class="Arrow-Left"></div>
-                    <div class="Arrow-Center"></div>
-                    <div class="Arrow-Rigth"></div>
-                </div>
-                <div class="down">
-                    <div class="Arrow-Down"></div>
+                <div class=" imagen"></div>
+            </div>
 
+            <div class="controls"></div>
+
+            <div class="Butom-containers">
+                
+                <div class="arows">
+                    <div class="up">
+                        <div class="Arrow-Up"></div>
+                    </div>
+                    <div class="left-right">
+                        <div class="Arrow-Left" onclick="epa2()"><i class="Arrow-Left"></i></div>
+                        <div class="Arrow-Center"></div>
+                        <div class="Arrow-Rigth" onclick="epa()"><i class="Arrow-Rigth"></i></div>
+                    </div>
+                    <div class="down">
+                        <div class="Arrow-Down"></div>
+    
+                    </div>
+                </div>
+                <div class="buttons">
+                    <div class="A">
+                        <div class="buttom-A"><i class="buttom-A"></i></div>
+                    </div>
+                    <div class="B">
+                        <div class="buttom-B"><i class="buttom-B"></i></div>
+                    </div>
                 </div>
             </div>
-            <div class="buttons">
-                <div class="A">
-                    <div class="buttom-A"></div>
-                </div>
-                <div class="B">
-                    <div class="buttom-B"></div>
-                </div>
+            <div class="more-buttons">
+                <div class="buttom-select"></div>
+                <div class="buttom-start"></div>
             </div>
-        </div>
-        <div class="more-buttons">
-            <div class="buttom-select"></div>
-            <div class="buttom-start"></div>
         </div>
     </div>
+    <script src="./repo.json" controls></script>
+    <script src="./src/main.js"></script>
+    <!-- <script>
+        var song = songs[0].url;
+        console.log(song);
+    
+    </script> -->
 </body>
 </html>
