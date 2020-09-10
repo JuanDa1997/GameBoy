@@ -22,7 +22,7 @@ let epa = () =>{
     console.log(`${contador} sumado`)
     if (contador == 1){
         const x = document.getElementsByClassName("Screem")[0];
-        x.style.backgroundImage = "url(../covers/a3076805245_2.jpg)";
+        x.style.backgroundImage = "url(./covers/imagen2.jpg)";
 
         let y = document.getElementById("titulo").innerText = "Bob marley";
         
@@ -32,7 +32,7 @@ let epa = () =>{
         let y = document.getElementById("titulo").innerText = "Michael jackson";
 
         const x = document.getElementsByClassName("Screem")[0];
-        x.style.backgroundImage = "url(../covers/a2571494923_2.jpg)";
+        x.style.backgroundImage = "url(./covers/imagen3.jpg)";
         player = new AudioPlayer(songs[2].url,document.querySelector(".Screem"), controls);
         
     }
@@ -52,7 +52,7 @@ let epa2 = () =>{
     }else if(contador == 1){
         const x = document.getElementsByClassName("Screem")[0];
         let y = document.getElementById("titulo").innerText = "Bob marley";
-        x.style.backgroundImage = "url(../covers/a3076805245_2.jpg)";
+        x.style.backgroundImage = "url(../covers/imagen2.jpg)";
         player = new AudioPlayer(songs[1].url,document.querySelector(".Screem"), controls);
         
     }
